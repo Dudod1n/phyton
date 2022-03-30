@@ -1,10 +1,10 @@
-print("Четное число или нечетное\n")
-num = int(input("Введите число: "))
+print("Even or not\n")
+num = int(input("Put your number: "))
 if num == 0:
-    print(num, " - это ноль")
+    print(num, " - this is ZERO")
 elif num % 2 == 0:
-    print(num, " - четное число")
+    print(num, " - even number")
 elif num % 2 == 1:
-    print(num, " - нечетное число")
+    print(num, " - uneven number")
 else:
-    print("Это не число!")
+    print("It's not a number!")
